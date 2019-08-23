@@ -11,7 +11,9 @@ grpc跨平台桌面客户端调试工具
    ```
 3. 切换flutter为桌面环境
    ```
-   // On macOS or Linux
+   // Linux
+   flutter config --enable-linux-desktop to enable Linux.
+   // On macOS
    export ENABLE_FLUTTER_DESKTOP=true
    // On Windows PowerShell
    $env:ENABLE_FLUTTER_DESKTOP="true"
